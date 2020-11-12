@@ -94,8 +94,7 @@ footer {
 }
 
 main {
-	width: 940px;
-	margin: 0 auto;
+	
 }
 
 form {
@@ -165,6 +164,13 @@ td, th{
 	clear: left; /* limpa o float*/
 }
 
+.principal {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+
 .principal p{
 	margin: 0 0 1em;
 }
@@ -184,6 +190,19 @@ td, th{
 }
 .mapa{
 	padding: 3em 0;
+	background: linear-gradient(#FFFFFF, #888888);
+
+	/*
+	background: linear-gradient(orange, blue, red, black);
+	background: linear-gradient(45deg, orange, blue, red, black); no primeiro atributo, colocar o grau que comece
+	background: linear-gradient(90deg orange 50%, blue, red, black); comeca o degrade a partir de 50% do laranja
+	background: radial-gradient(orange 50%, blue, red, black); degrade em circulo!!
+	*/
+}
+
+.mapa-conteudo{
+	width: 940px;
+	margin: 0 auto;
 }
 
 .mapa p{
@@ -191,8 +210,10 @@ td, th{
 	text-align: center;
 }
 
+
 .beneficios{
 	padding: 3em 0;
+	background: #888888;
 }
 
 .conteudo-beneficios{
